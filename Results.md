@@ -51,7 +51,7 @@ This can be a crucial observation since automated change notifications follows a
 API consumer over the time gets used to this structure and can easily extract out the changes made. 
 On the other hand, If such structure is not followed in the manual change notification, it is a lot harder for consumer to adapt since developers change over the time and so does their communication type.
 
-## Analysis
+## Statistical Analysis
 
 The bar plot given below shows compares average time taken to notify API user about change with Sync-Ends and without Sync-Ends. As seen in the plot, notifications via Sync-Ends was faster compared to notifications without Sync-Ends and not just slightly faster but faster by a huge margin.
 
