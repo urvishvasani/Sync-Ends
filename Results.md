@@ -37,8 +37,8 @@ For this experiment, we have used:
 To draw meaningful conclusions out of this experiment, we have used the following quantitative and qualitative observations.
 
 ### Quantitative measures
-1. Time when the API developer published a particular change.
-2. TIme when the API consumer gets notified about the change made in the above point.
+1. Time take when the API developer published a particular change.
+2. Time when the API consumer gets notified about the change made in the above point.
 
 For each phase of the experiment, we have made 5 changes to the API and noted the time when consumer gets notified. 
 Since each experiment consists of two phases, we have a total of 10 observation for each experiment.
