@@ -52,6 +52,10 @@ API consumer over the time gets used to this structure and can easily extract ou
 On the other hand, If such structure is not followed in the manual change notification, it is a lot harder for consumer to adapt since developers change over the time and so does their communication type.
 
 ## Analysis
+
+Put a little bit of description here
+Put graph here
+
 It was clear from our set of observations that using sync-ends, user was able to decrease the overall time by a huge
 margin, but in order to support our visible claims we decided to run t-test on both the probability distribution to
 be sure whether the means of both the distribution were same or not. Here the null hypothesis is that the two means
