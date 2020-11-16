@@ -5,25 +5,25 @@ In this experiment, we evaluated the performance improvement of the API consumer
 ## It vs Not It
 In the presence of this sync-ends service, once the change is made to the API in the postman collection, the changes are directly fetched from the Postman and a slack message is sent in the channel with a detailed diff notifying the API consumer of this change.
 
-In the absence of this service, the developer need to manually notify changes to the API consumer and if the developer forgets to do so, the API consumer will be unaware of API changes and as a result, the API consumer will have a crash when their application tries to call the updated API with old parameters.
+In the absence of this service, the developer would need to manually notify changes to the API consumer. If the developer forgets to do so, the API consumer will be unaware of API changes. As a result, the API consumer will face a crash when their application tries to call the updated API with old parameters.
 
 ## Methodology
-Each experiment ran in pairs where one of the session conductor from our team behaved as the API developer and the participant acted as the API consumer.
+Each experiment was run in pairs where one of the session conductor from our team behaved as the API developer and the participant acted as the API consumer.
 
-The job of the developer is to change API schemas in Postman which mocks the behaviour that a change has been made in the serving of API in actual codebase.
+The job of the developer was to change the API schemas in Postman which mocks the behaviour that a change has been made in the serving of API in the actual codebase.
 
-The job of the API consumer is to monitor those changes and note them down which mocks the behaviour that the API consumer is now aware that a change need to be made in the codebase where this API is used.
+The job of the API consumer was to monitor those changes and note them down which mocks the behaviour that the API consumer was then aware that a change was needed to be made in the codebase where this API is used.
 
 The experiment is divided into two phases:
 
-1. In the first half of the experiment, API developer makes changes to the API and communicates to the API consumers manually without using the Sync-Ends. 
-This scenario mimics the **Not It** part where there is no automated way of communication.
+1. In the first half of the experiment, API developer makes changes to the API and communicates to the API consumers manually without using the Sync-Ends service. 
+This scenario mimics the **Not It** part where there is no automated communication.
 
 2. In the second half of the experiment, API developer makes changes to the API and Sync-Ends takes care of communication. 
 This scenario mimics the **It** part where any changes are notified to the API consumers in the automated way.
 
-During these two phase, job of the API developer remain the same which is to note the changes as when they are communicated.
-To capture the precise time when consumers gets the notification, we asked participants to direct message one of the session conductor about the notified changes.
+During these two phases, the job of the API developer remains the same which is to note the changes as when they are communicated.
+To capture the precise time when consumers gets the notification, we asked participants to direct message to one of the session conductor about the notified changes.
 
 ## Material
 For this experiment, we have used:
@@ -34,13 +34,13 @@ For this experiment, we have used:
 
 ## Observations
 
-To draw meaningful conclusions out of this experiment, we have used the following quantitative and qualitative observations.
+To draw meaningful conclusions out of this experiment, we used the following quantitative and qualitative observations.
 
 ### Quantitative measures
-1. Time take when the API developer published a particular change.
+1. Time taken when the API developer published a particular change.
 2. Time when the API consumer gets notified about the change made in the above point.
 
-For each phase of the experiment, we have made 5 changes to the API and noted the time when consumer gets notified. 
+For each phase of the experiment, we made 5 changes to the API and noted the time when consumer gets notified. 
 Since each experiment consists of two phases, we have a total of 10 observation for each experiment.
 That makes a total of 100 observations since we have conducted this experiment with 10 participants.
 
