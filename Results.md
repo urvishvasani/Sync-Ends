@@ -47,6 +47,10 @@ That makes a total of 100 observations since we have conducted this experiment w
 ### Qualitative measures
 1. How easy it is for API consumer to find the changes (In presence of the Sync Ends system v/s Without the system)
 
+This can be a crucial observation since automated change notifications follows a particular structure for each communication.
+API consumer over the time gets used to this structure and can easily extract out the changes made. 
+On the other hand, If such structure is not followed in the manual change notification, it is a lot harder for consumer to adapt since developers change over the time and so does their communication type.
+
 ## Analysis
 It was clear from our set of observations that using sync-ends, user was able to decrease the overall time by a huge
 margin, but in order to support our visible claims we decided to run t-test on both the probability distribution to
@@ -63,9 +67,17 @@ Based on the p-value obtained from above data, it can be concluded that we can r
 support the claim of both the means are different.
 
 * More details can be observed from this [code](https://github.com/urvishvasani/Sync-Ends/blob/master/statistical_analysis.ipynb). 
-  
+
+### Quantitative analysis
+When we asked participants about their preference about whether they got convinced to use the Sync-Ends or not, we got the following results:
+(5 being the Highest preference and 1 being the lowest preference.)
+
+As we can see from the histogram, 80% participant prefers the Sync-Ends over the manual communication of changes. 
+The rest 20% are fine with or without Sync-Ends as long as they get the change notifications properly.
 
 ## Conclusion
+From the results obtained in the analysis section, we can confidently conclude that overall latency of communication when using Sync-Ends is much lower than when not using Sync-ends.
+and majority of the participants prefers the Sync-ends service over the manual form of communication.
 
 ## Threats to Validity
 
