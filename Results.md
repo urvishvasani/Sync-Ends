@@ -83,3 +83,20 @@ and majority of the participants prefers the Sync-ends service over the manual f
 
 ## Threats to Validity
 
+There are a few factors that affect the conclusion drawn from this experiment significantly. 
+API development and consumption of that takes place over the longer time spam and to mimic the similar procedure in the 45 minute time frame is difficult.
+There are two real life scenario which might contradict the concluded observations.
+
+1. In real life, when API developers makes any changes to the API, it is not always the case that they notify the API consumers straight away.
+There can be the scenarios where they have developed a particular API but didn't notified the consumers until the another dependent API is published and notified.
+We tried to mimic this scenario making a change at a time t and notified the consumers after t+2 or t+3 minutes as and when it is required by the other API.
+For example, in our experiment we first created an API to add the student's subject details but didn't notified the consumers. 
+Later on, when we developed an API that lists the student's subject details and notified the consumer about that, we let the consumer complain about no provision for adding the subject details and then we notified them about the add subject details API.
+
+2. We have used Slack channel to communicate any API changes to the consumer. During the experiment, API consumers (Participants) only had to observe the slack channel for any API changes.
+However, in real life, consumer are not always looking at their slack channel for API changes, they can be busy in their own development.
+To simulate this scenario, we asked API consumers (Participants) to write us a detailed message about the changes that they have been notified of.
+So, it can be the case that when they are writing us for the past changes, they got notified about the new change.
+Here writing us a detailed message about an API change can be linked with the time when they are doing their own development.
+
+This way, we tried to mitigate any biases that might affect our conclusions.  
