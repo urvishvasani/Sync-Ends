@@ -72,6 +72,8 @@ support the claim of both the means are different.
 When we asked participants about their preference about whether they got convinced to use the Sync-Ends or not, we got the following results:
 (5 being the Highest preference and 1 being the lowest preference.)
 
+<img src="https://github.com/urvishvasani/Sync-Ends/blob/master/images/hist.PNG" height="400" width="650"/>
+
 As we can see from the histogram, 80% participant prefers the Sync-Ends over the manual communication of changes. 
 The rest 20% are fine with or without Sync-Ends as long as they get the change notifications properly.
 
