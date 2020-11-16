@@ -53,8 +53,9 @@ On the other hand, If such structure is not followed in the manual change notifi
 
 ## Analysis
 
-Put a little bit of description here
-Put graph here
+The bar plot given below shows compares average time taken to notify API user about change with Sync-Ends and without Sync-Ends. As seen in the plot, notifications via Sync-Ends was faster compared to notifications without Sync-Ends and not just slightly faster but faster by a huge margin.
+
+<img src="https://github.com/urvishvasani/Sync-Ends/blob/master/images/bar.png" height="400" width="650"/>
 
 It was clear from our set of observations that using sync-ends, user was able to decrease the overall time by a huge
 margin, but in order to support our visible claims we decided to run t-test on both the probability distribution to
