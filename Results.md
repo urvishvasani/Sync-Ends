@@ -54,10 +54,10 @@ be sure whether the means of both the distribution were same or not. Here the nu
 are equal, and the alternative is that they are not. 
 
 1. The following image gives us an idea about the overall time distibution after using sync_ends.
-<img src="https://github.com/uvasani/Sync-Ends/blob/master/images/with_syncends.PNG" height="500" width="800"/>
+<img src="https://github.com/urvishvasani/Sync-Ends/blob/master/images/with_syncends.PNG" height="500" width="800"/>
 
 2. The following image gives us an idea about the overall time distibution before using sync_ends.
-<img src="https://github.com/uvasani/Sync-Ends/blob/master/images/without_syncends.PNG" height="500" width="800"/>
+<img src="https://github.com/urvishvasani/Sync-Ends/blob/master/images/without_syncends.PNG" height="500" width="800"/>
 
 Based on the p-value obtained from above data, it can be concluded that we can reject the null-hypothesis which would
 support the claim of both the means are different.
