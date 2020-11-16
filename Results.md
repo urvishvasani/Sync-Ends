@@ -79,7 +79,7 @@ When we asked participants about their preference about whether they got convinc
 
 <img src="https://github.com/urvishvasani/Sync-Ends/blob/master/images/hist.png"/>
 
-As we can see from the histogram, 80% participant prefers the Sync-Ends over the manual communication of changes. 
+As we can see from the histogram, 80% of the participants prefer the Sync-Ends over the manual communication of changes. 
 The rest 20% are fine with or without Sync-Ends as long as they get the change notifications properly.
 
 ## Conclusion
