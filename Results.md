@@ -1,6 +1,6 @@
 # Phase 3 Experiment
 
-In this experiment, we evaluated the performance improvement of the API consumer in a rapidly developing environment.
+In this experiment, we evaluated the improvement in performance of the API consumer in a rapidly developing environment.
 
 ## It vs Not It
 In the presence of this sync-ends service, once the change is made to the API in the postman collection, the changes are directly fetched from the Postman and a slack message is sent in the channel with a detailed diff notifying the API consumer of this change.
@@ -28,7 +28,7 @@ To capture the precise time when consumers gets the notification, we asked parti
 ## Material
 For this experiment, we have used:
 * A general postman account with a single collection but multiple APIs. 
-    - API developer make periodic changes to this APIs and the Sync Ends service takes care of the rest.
+    - API developer made periodic changes to these APIs and the Sync Ends service took care of the rest.
 * A slack channel along with configured Slack Bot which interacts with the Sync-Ends service.
     - Our participants who are API consumers, are added to this channel.
 
